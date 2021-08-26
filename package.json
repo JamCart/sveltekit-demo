@@ -1,0 +1,15 @@
+{
+  "name": "sveltekit-ecommerce-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.7",
+    "@sveltejs/kit": "1.0.0-next.157",
+    "svelte": "^3.42.3"
+  },
+  "type": "module"
+}
