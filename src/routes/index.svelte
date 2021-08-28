@@ -21,7 +21,7 @@ export let products
   <ul class="product-grid">
     {#each products as product, index (product.slug)}
       <li>
-        <a class="product" href="/product/{ product.slug }">
+        <a class="product" href="/product/{ product.slug }" sveltekit:prefetch>
           <div class="product-image">
             <img alt="" height="427" width="640" src={ product.image } loading={ index < 5 ? 'eager' : 'lazy' } />
           </div>

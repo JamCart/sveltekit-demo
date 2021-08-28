@@ -4,7 +4,7 @@ import './global.css'
 
 <nav class="nav">
   <h1 class="logo">
-    <a href="/">Jewels <!-- Our Demo Website's Title --></a>
+    <a href="/" sveltekit:prefetch>Jewels <!-- Our Demo Website's Title --></a>
   </h1>
   <jamcart-open class="open" />
 </nav>
