@@ -2,6 +2,10 @@
 import './global.css'
 </script>
 
+<svelte:head>
+  <meta name="description" content="A demo e-commerce storefront built with SvelteKit and JamCart" />
+</svelte:head>
+
 <nav class="nav">
   <h1 class="logo">
     <a href="/" sveltekit:prefetch>Jewels <!-- Our Demo Website's Title --></a>
